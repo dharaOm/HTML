@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Code Pro', monospace;
+    background: gray;
+}
+.container{
+    
+    max-width: 1140px;
+    margin:0 auto;
+}
+.pic{
+    border: 2px solid gray;
+}
+.pic img{
+    width: 146px;
+    
+}
+.profile{
+    display: flex;
+    align-items:center ;
+    padding: 2rem;
+}
+.name{
+    padding: 60px;
+    padding-top: 25px;
+    padding-right: 80px;
+    align-items: auto;
+        /* width: 50vw; */
+}
+.myname{
+    font-size: 3em;
+    font-weight: bold;
+    margin-block-start: 0.60em;
+    font-family: 'Source Code Pro', monospace;
+}
+.occupation{
+    font-size: 2em;
+    font-family: 'Source Code Pro', monospace;
+}
+.info {
+    padding:20px;
+    padding-right: 0px; 
+    float:inherit;
+    /* align-items:flex-end; */
+    font-family: 'Source Code Pro', monospace;
+    font-size: .2em;
+    
+}
+.info li{
+    list-style-type: none;
+    font-size: 22px;
+    font-weight: 700;
+    float: left;
+}
+.objective{
+    margin-top: 15px;
+    
+}
+hr {
+    color:darkturquoise;
+    margin-top: 60px;
+}
+h4.title{
+    font-size: 1.5em;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin-top: 25px;
+    background-color: lightslategray;
+}
+.exp{
+    margin-top: 25px;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+.details{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+/* section.profile.content{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-gap: 20rem;
+
+} */
+aside{
+    width:40%;
+    padding-left: 10px;
+    margin-left: 50px;
+    float: right;
+}
+.left{
+    float: left;
+}
+
+h4{
+    font-size: 1.5em;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.skills{
+    margin-top: 0px;
+}
+h4.title1{
+    font-size: 1.5em;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin-top: 25px;
+    background-color:darkcyan;
+}
+.title2{
+    color:firebrick;
+    font-weight: 800;
+    border: dotted ;
+}
+.dot{
+    height: 25px;
+    width: 25px;
+    background-color:chartreuse;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot1{
+    height: 25px;
+    width: 25px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2{
+    height: 25px;
+    width: 25px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot3{
+    height: 25px;
+    width: 25px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot4{
+    height: 25px;
+    width: 25px;
+    background-color: darkgrey;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot5{
+    height: 25px;
+    width: 25px;
+    background-color:coral;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot6{
+    height: 25px;
+    width: 25px;
+    background-color:coral;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot7{
+    height: 25px;
+    width: 25px;
+    background-color:coral;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot8{
+    height: 25px;
+    width: 25px;
+    background-color:coral;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot9{
+    height: 25px;
+    width: 25px;
+    background-color:coral;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot10{
+    height: 25px;
+    width: 25px;
+    background-color:crimson;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot11{
+    height: 25px;
+    width: 25px;
+    background-color:crimson;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot12{
+    height: 25px;
+    width: 25px;
+    background-color:crimson;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot13{
+    height: 25px;
+    width: 25px;
+    background-color:darkgrey;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot14{
+    height: 25px;
+    width: 25px;
+    background-color:darkgrey;
+    border-radius: 50%;
+    display: inline-block;
+}
+.title2{
+    margin-top: 0px;
+}
+.dot15{
+    height: 25px;
+    width: 25px;
+    background-color:darkolivegreen;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot16{
+    height: 25px;
+    width: 25px;
+    background-color:darkolivegreen;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot17{
+    height: 25px;
+    width: 25px;
+    background-color:darkolivegreen;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot18{
+    height: 25px;
+    width: 25px;
+    background-color:darkolivegreen;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot19{
+    height: 25px;
+    width: 25px;
+    background-color:darkgrey;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot20{
+    height: 25px;
+    width: 25px;
+    background-color:darkgoldenrod;
+    border-radius: 50%;
+    display: inline-block;
+}.dot21{
+    height: 25px;
+    width: 25px;
+    background-color:darkgoldenrod;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot22{
+    height: 25px;
+    width: 25px;
+    background-color:darkgoldenrod;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot23{
+    height: 25px;
+    width: 25px;
+    background-color:darkgoldenrod;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot24{
+    height: 25px;
+    width: 25px;
+    background-color:darkgrey;
+    border-radius: 50%;
+    display: inline-block;
+}
